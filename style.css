@@ -1,9 +1,51 @@
-html {
-
+/*#666666 grey
+#E0B66E gold */
+body {
+    margin: 0px;
     font-family: arial;
 }
 
+header {  
+    
+    width: 100%;
+    min-height:50px;
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 3px -5px #666666;    
+-moz-box-shadow: 0px 5px 3px -5px #666666;
+box-shadow: 0px 5px 3px -5px #666666;
+}
+#navlogo {
+
+    width: 10vh;
+}
+nav {
+ 
+ 
+    
+}
 nav ul li  {
 
-    display: inline;
+    margin:5px;
+    
+   
 }
+
+nav ul li  {
+    display: inline;
+    border: 1px solid #E0B66E;
+  
+    
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    padding:10px;
+    text-align: center;
+    
+
+
+    
+    font-size:10px;
+}
+
