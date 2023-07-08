@@ -1,0 +1,93 @@
+
+/* Variables */
+
+:root {
+    --gold-color: #dfb66e;
+    --gray-color: #666666;
+
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-size: 16px;
+}
+
+
+/* STYLING */
+.navigation {
+    width: 100%;
+    background-color:red;
+}
+.navbar {
+    width: 100%;
+    padding: 15px 10%;
+    background-color: white;
+}
+
+.navbar-brand img {
+    width: 8vh;
+ 
+}
+
+ul.navbar-nav li {
+
+    padding: 0 5vh;
+}
+
+.navbar-nav li a {
+
+    font-size: 1.2rem;
+    color: var(--gold-color);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-nav li a:hover {
+
+    color: var(--gold-color);
+}
+
+.navbar-nav li a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  
+  .navbar-nav li > a:hover::after, li > a.active-nav::after {
+    width: 100%;
+    background: var(--gold-color);
+  }
+
+
+  /* CONTACT & SOCIAL MEDIA BAR */
+  .contact {
+    background-color: var(--gold-color);
+    color: white;
+    
+  }
+
+  .contact ul li i {
+    padding: 1vh;
+  
+  }
+
+  .contact ul li i:hover {
+    background-color:white;
+    color: var(--gold-color);
+
+
+    
+  }
